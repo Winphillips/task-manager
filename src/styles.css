@@ -1,0 +1,103 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+
+.App {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 650;
+  background-color: #f6faff;
+}
+
+h1 {
+  margin: 10px 0px 15px 0px;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 90%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background: hsl(211, 91%, 87%);
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #f6faff;
+  color: darkblue;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  margin: auto 0;
+}
+
+.rowDone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #cce5ff;
+  color: darkblue;
+  padding: 17px 10px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.edit {
+  background: #cce5ff;
+  color: darkblue;
+  padding: 0px 10px 15px 10px;
+}
+
+.edit input {
+  margin-right: 10px;
+  border: 0;
+  padding: 10px;
+}
+
+.btn {
+  font-size: 0.85rem;
+  background-color: dodgerblue;
+  color: white;
+  border: 0px;
+  padding: 9px 14px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn.delete {
+  background-color: rgb(105, 105, 105);
+}
+
+.btn.add {
+  padding: 15px 20px;
+}
+
+.taskInput {
+  min-width: 50%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: 1px solid rgba(192, 192, 192, 0.288);
+  padding: 15px;
+}
+
+.inputlabel {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.done {
+  margin-right: 10px;
+}
